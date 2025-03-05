@@ -1,0 +1,63 @@
+:root {
+  --primary-light-green: hsl(158, 36%, 37%);
+  --primary-dark-green: hsl(158, 42%, 18%);
+  --neutral-black: hsl(212, 21%, 14%);
+  --neutral-grey: hsl(228, 12%, 48%);
+  --neutral-cream: hsl(30, 38%, 92%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --secondary-font: "Montserrat", sans-serif;
+  --main-font: "Fraunces", serif;
+}
+
+body {
+  background-color: var(--neutral-cream);
+}
+
+main {
+  padding: 25px 15px;
+  
+  
+}
+
+figure {
+  margin: 0;
+  background-color: var(--neutral-white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.container {
+  background-color: var(--neutral-white);
+
+}
+
+.top-title {
+    margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--main-font);
+}
+
+p,
+a {
+  font-family: var(--secondary-font);
+}
+
+h1 {
+  color: var(--neutral-black);
+}
+
+h2,
+a {
+  color: var(--primary-light-green);
+}
+
+p {
+  color: var(--neutral-grey);
+}
