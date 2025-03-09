@@ -1,0 +1,10 @@
+:root {
+  --primary-light-green: hsl(158, 36%, 37%);
+  --primary-dark-green: hsl(158, 42%, 18%);
+  --neutral-black: hsl(212, 21%, 14%);
+  --neutral-grey: hsl(228, 12%, 48%);
+  --neutral-cream: hsl(30, 38%, 92%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --heading-font: "Fraunces", serif;
+  --secondary-font: "Montserrat", sans-serif;
+}
