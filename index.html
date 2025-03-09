@@ -34,7 +34,15 @@
   <body>
     <main>
       <div class="card">
-        <img src="images/image-product-desktop.jpg" alt="perfume large img" />
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="perfume large img"
+          srcset="
+            images/image-product-mobile.jpg   768w,
+            images/image-product-desktop.jpg 1024w
+          "
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
         <div class="container">
           <div class="text-component">
             <p class="title">Perfume</p>
@@ -48,9 +56,9 @@
             <h2>$149.99</h2>
             <p>$169.99</p>
           </div>
-            <a href="#" class="btn"
-              ><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a
-            >
+          <a href="#" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a
+          >
         </div>
       </div>
     </main>
